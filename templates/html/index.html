@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SASH — Your daily health protocol</title>
   <meta name="description"
-    content="SASH is a minimalist AM/PM health protocol. Clean stacks. Clear benefits. No clutter." />
+    content="SASH is your daily AM/PM sachet protocol for energy, focus, and sleep. Science-backed, minimalist, and habit-forming. Join the next batch." />
   <meta name="keywords"
     content="health, protocol, daily routine, supplements, wellness, AM PM, stack, clarity, energy, sleep, longevity" />
   <meta name="author" content="SASH" />
   <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sashstack.com/" />
+  <link rel="icon" href="/favicon.ico" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="SASH — A Daily Health Protocol" />
@@ -27,231 +29,26 @@
     content="AM. PM. Two sachets. Clarity, focus, deep sleep. SASH is rhythm, daily, forever." />
   <meta name="twitter:image" content="https://sashstack.com/preview.jpg" />
   <script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"Product",
-  "name":"SASH Daily Health Protocol",
-  "description":"AM & PM health sachets for clarity, energy, and sleep.",
-  "brand":{"@type":"Brand","name":"SASH"},
-  "offers":{"@type":"Offer","url":"https://sashstack.com/","availability":"https://schema.org/InStock"}
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "SASH Daily Health Protocol",
+    "description": "AM & PM health sachets for clarity, energy, and sleep.",
+    "brand": {
+      "@type": "Brand",
+      "name": "SASH"
+    },
+    "image": "https://sashstack.com/preview.jpg",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "TBD",
+      "availability": "https://schema.org/InStock",
+      "url": "https://sashstack.com/"
+    }
+  }
 </script>
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    html,
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      color: #666;
-      text-align: center;
-      background-color: #fff;
-    }
-
-    header {
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(120deg, #ffe8d6 50%, #ede7f6 50%);
-      padding: 0 2rem;
-    }
-
-    h1 {
-      font-size: 288px;
-      font-weight: 900;
-      letter-spacing: -3px;
-      color: rgba(255, 255, 255, 0.96);
-      line-height: 0.9;
-    }
-
-    .subhead {
-      font-size: 48px;
-      font-weight: 600;
-      color: #929292;
-    }
-
-    .support-line {
-      font-size: 32px;
-      font-weight: 600;
-      color: #444;
-      margin-top: 88px;
-    }
-
-    .keywords {
-      font-size: 16px;
-      color: #888;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 32px;
-      margin: 16px 0;
-    }
-
-    .cta {
-      padding: 16px 32px;
-      font-size: 16px;
-      background: #111;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 24px;
-      font-weight: 600;
-      margin-top: 8px;
-    }
-
-    .cta.disabled {
-      background: #ccc;
-      pointer-events: none;
-      cursor: pointer;
-    }
-
-    section {
-      padding: 80px 32px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    section.intro p {
-      max-width: 800px;
-      font-size: 32px;
-      color: #888;
-      line-height: 1.6;
-      margin-bottom: 24px;
-      text-align: left;
-    }
-
-    section.intro p span.highlight {
-      color: #444;
-    }
-
-    section.am {
-      background: #ffe8d6;
-    }
-
-    section.pm {
-      background: #ede7f6;
-    }
-
-    h2 {
-      font-size: 48px;
-      color: #222;
-      margin-bottom: 24px;
-    }
-
-    section>p {
-      font-size: 20px;
-      color: #555;
-    }
-
-    .notes {
-      text-align: left;
-    }
-
-    .ingredients {
-      margin-top: 40px;
-      text-align: left;
-      width: 500px;
-    }
-
-    .ingredient {
-      margin-bottom: 32px;
-    }
-
-    .ingredient h3 {
-      font-size: 20px;
-      color: #222;
-      margin-bottom: 4px;
-    }
-
-    .ingredient p {
-      font-size: 18px;
-      color: #444;
-      line-height: 1.5;
-      margin: 0;
-    }
-
-    .final {
-      background: #fff;
-    }
-
-    .final h2 {
-      font-size: 48px;
-      color: #929292;
-      margin-bottom: 16px;
-    }
-
-    .final-subhead {
-      font-size: 32px;
-      font-weight: 600;
-      color: #444;
-      margin-top: 32px;
-    }
-
-    .final-support-line {
-      font-size: 20px;
-      color: #444;
-      margin-top: 16px;
-    }
-
-    footer {
-      padding: 16px 0;
-      font-size: 14px;
-      color: #aaa;
-      background: #f7f7f7;
-    }
-
-    .final a {
-      margin-top: 80px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-      text-decoration: none;
-      color: #666;
-    }
-
-    .final a:hover {
-      cursor: pointer;
-    }
-
-    .final a:hover>.a-text {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 144px;
-        line-height: 1;
-      }
-
-      .subhead {
-        font-size: 32px;
-      }
-
-      .support-line {
-        font-size: 28px;
-      }
-
-      h2 {
-        font-size: 32px;
-      }
-
-      .ingredient h3 {
-        font-size: 18px;
-      }
-
-      .ingredient p {
-        font-size: 16px;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="/assets/globals.css" />
 </head>
 
 <body>
@@ -266,7 +63,7 @@
       <span>Energy</span>
       <span>Longevity</span>
     </div>
-    <a href="/store" class="cta disabled">Coming soon</a>
+    <button class="cta">Join the next batch</button>
   </header>
 
   <main>
@@ -343,24 +140,77 @@
       </div>
     </section>
 
-    <section class="final">
+    <section class="final" id="final">
       <h2>Minimal. Intentional. Repeatable.</h2>
       <p class="final-subhead">SASH isn’t a supplement pack.</p>
       <p class="final-support-line">It’s a protocol. No decisions. No clutter. Just rhythm, daily, forever.</p>
-      <a class="to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#666" stroke-width="2"
-            stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-            <polyline points="18 15 12 9 6 15"></polyline>
-          </svg>
-        </span>
-        <span class="a-text">To the top</span>
-      </a>
+      <form action="/waitlist" method="POST" id="waitlist-form">
+        <p>Join the next batch</p>
+        <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
+        <input type="email" name="email" placeholder="Email" required autocomplete="email" aria-label="Email address"
+          inputmode="email" />
+
+        <select name="country" required aria-label="Country of residence">
+          <option value="">Select your country</option>
+
+          <option value="Australia">Australia</option>
+          <option value="Austria">Austria</option>
+          <option value="Belgium">Belgium</option>
+          <option value="Canada">Canada</option>
+          <option value="Czech Republic">Czech Republic</option>
+          <option value="Denmark">Denmark</option>
+          <option value="Estonia">Estonia</option>
+          <option value="Finland">Finland</option>
+          <option value="France">France</option>
+          <option value="Germany">Germany</option>
+          <option value="Greece">Greece</option>
+          <option value="Hong Kong">Hong Kong</option>
+          <option value="India">India</option>
+          <option value="Ireland">Ireland</option>
+          <option value="Israel">Israel</option>
+          <option value="Italy">Italy</option>
+          <option value="Japan">Japan</option>
+          <option value="Luxembourg">Luxembourg</option>
+          <option value="Netherlands">Netherlands</option>
+          <option value="New Zealand">New Zealand</option>
+          <option value="Norway">Norway</option>
+          <option value="Poland">Poland</option>
+          <option value="Portugal">Portugal</option>
+          <option value="Singapore">Singapore</option>
+          <option value="South Africa">South Africa</option>
+          <option value="South Korea">South Korea</option>
+          <option value="Spain">Spain</option>
+          <option value="Sweden">Sweden</option>
+          <option value="Switzerland">Switzerland</option>
+          <option value="Taiwan">Taiwan</option>
+          <option value="United Arab Emirates">United Arab Emirates</option>
+          <option value="United Kingdom">United Kingdom</option>
+          <option value="United States">United States</option>
+        </select>
+
+        <select name="frequency" required aria-label="Preferred refill cycle">
+          <option value="">Preferred refill cycle</option>
+          <option value="monthly">Monthly</option>
+          <option value="quarterly">Quarterly</option>
+          <option value="half-yearly">Half-Yearly</option>
+          <option value="yearly">Yearly</option>
+        </select>
+
+        <input type="text" name="referral" placeholder="How did you hear about SASH?" required autocomplete="off"
+          aria-label="Referral source" />
+
+        <input type="text" name="interest" placeholder="One word why you're interested" required autocomplete="off"
+          aria-label="Interest keyword" />
+
+        <button type="submit" class="submit" aria-label="Submit form">Submit</button>
+      </form>
     </section>
   </main>
 
   <footer>
     <p>© 2025 SASH. All rights reserved.</p>
   </footer>
+  <script src="/assets/globals.js" defer></script>
 </body>
 
 </html>
