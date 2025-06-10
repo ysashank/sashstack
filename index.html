@@ -200,7 +200,11 @@
       color: #666;
     }
 
-    a .a-text:hover {
+    .final a:hover {
+      cursor: pointer;
+    }
+
+    .final a:hover>.a-text {
       text-decoration: underline;
     }
 
@@ -255,11 +259,11 @@
       <div class="ingredients">
         <div class="ingredient">
           <h3>Collagen</h3>
-          <p>Structure for joints, skin, and gut.</p>
+          <p>Keeps joints, skin, and gut strong. Aging breaks them down — collagen builds them back.</p>
         </div>
         <div class="ingredient">
           <h3>Creatine</h3>
-          <p>Mental sharpness. Physical energy.</p>
+          <p>Brain and body energy, on-demand. Helps in think, move, and not crash</p>
         </div>
         <div class="ingredient">
           <h3>Vitamin C</h3>
@@ -311,7 +315,7 @@
       <h2>Minimal. Intentional. Repeatable.</h2>
       <p class="final-subhead">SASH isn’t a supplement pack.</p>
       <p class="final-support-line">It’s a protocol. No decisions. No clutter. Just rhythm, daily, forever.</p>
-      <a href="#" class="to-top">
+      <a class="to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
         <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="#666" stroke-width="2"
             stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
             <polyline points="18 15 12 9 6 15"></polyline>
