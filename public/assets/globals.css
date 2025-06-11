@@ -13,13 +13,13 @@ body {
 }
 
 header {
-    height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: linear-gradient(120deg, #ffe8d6 50%, #ede7f6 50%);
-    padding: 0 2rem;
+    padding: 0 32px 40px;
 }
 
 h1 {
@@ -30,10 +30,23 @@ h1 {
     line-height: 0.9;
 }
 
+@media (max-width: 800px) {
+    h1 {
+        font-size: 112px;
+        line-height: 1.5;
+    }
+}
+
 .subhead {
     font-size: 48px;
     font-weight: 600;
     color: #929292;
+}
+
+@media (max-width: 550px) {
+    .subhead {
+        font-size: 40px;
+    }
 }
 
 .support-line {
@@ -117,7 +130,7 @@ section>p {
 .ingredients {
     margin-top: 40px;
     text-align: left;
-    width: 500px;
+    max-width: 500px;
 }
 
 .ingredient {
@@ -254,31 +267,4 @@ button:hover {
 
 button:disabled {
     background: #ccc;
-}
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 144px;
-        line-height: 1;
-    }
-
-    .subhead {
-        font-size: 32px;
-    }
-
-    .support-line {
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 32px;
-    }
-
-    .ingredient h3 {
-        font-size: 18px;
-    }
-
-    .ingredient p {
-        font-size: 16px;
-    }
 }
